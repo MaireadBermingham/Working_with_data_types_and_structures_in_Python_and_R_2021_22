@@ -358,6 +358,6 @@ aeTest  %>%
 write_csv(aeTest, here("Data", "ae_attendances_test.csv"))
 ```
 
-# **You are now ready to start exploring your data. Happy coding!**
+You are now ready to start exploring your data. Happy coding!
 
 
