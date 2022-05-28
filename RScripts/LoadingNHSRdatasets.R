@@ -229,7 +229,7 @@ write_csv(ae, here("RawData", "ae_attendances.csv"))
 #It really important point to note, is that you are not going to need the full ae_attendances dataset develop your data collection tool. 
 #For example if you are interested in exploring four hours performance for England as a whole you will only need the variables: index, 
 #period, attendances, breaches. Likewise, you may wish examine performance for the different types of department, 
-#so we would also need the type variable. For the purpose of this lesson, we will focus on  England as a whole.
+#we would also need the type variable. For the purpose of this lesson, we will focus on  England as a whole.
 
 ## Examining the four-hour waiting time target performance for England
 #We will now use the dplyr package `select()` function to select the required variables. 
@@ -315,7 +315,7 @@ write_csv(ae, here("RawData", "ae_attendances_ENG_4hr_perfom.csv"))
 nrow(ae) #rows of data
 
 
-#We do not want you to spend hours inputting rows and rows data into your data capture tool. 
+#We do not want you to spend hours inputting rows and rows of data into your data capture tool. 
 #A test data set of 10-15 records to capture with and evaluate your data capture tool is sufficient for the purpose of the course assignment. 
 #Here is how to work out the proportion (`prop`) of the raw data to assign to the training data:
 prop<-(1-(15/nrow(ae)))
