@@ -11,7 +11,6 @@
 # Copyright statement: This script is the product of University of Edinburgh.
   
 
-
 # Background
 #The data that you will be managing on the course are from the NHSRdatasets package. 
 #This package has been created to support skills development in the NHS-R community. 
