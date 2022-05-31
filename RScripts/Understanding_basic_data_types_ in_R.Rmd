@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# **Understanding Data types in R**  
+# **Understanding data types in R**  
 
 Everything in R is an object. A data type of a variable specifies the type of data that is stored inside that variable.
 
@@ -114,7 +114,7 @@ typeof(d)
 
 
 ## **Complex data type**
-The complex data type is an object that includes an imaginary number (x). As imaginary numbers are not generally used in statistics, this data type is not very common. The function to check the data type is `is.complex()`. Lets create a complex object:
+The complex data type is an object that includes an imaginary number (i). As imaginary numbers are not generally used in statistics, this data type is not very common. The function to check the data type is `is.complex()`. Lets create a complex object:
 ```{r e}
 e<- 1 + 2i 
 typeof(e)

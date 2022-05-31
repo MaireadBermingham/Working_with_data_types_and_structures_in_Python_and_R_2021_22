@@ -95,10 +95,10 @@ typeof(d)
 
 
 Complex data type
-The complex data type is an object that includes an imaginary number (x). As imaginary numbers are not generally used in statistics, this data type is not very common. The function to check the data type is is.complex.
-0 + 2x 
-typeof(0 + 2x ) # "complex"
-is.complex(0 + 2x ) # TRUE
+The complex data type is an object that includes an imaginary number (i). As imaginary numbers are not generally used in statistics, this data type is not very common. The function to check the data type is is.complex.
+0 + 2i 
+typeof(0 + 2i ) # "complex"
+is.complex(0 + 2i ) # TRUE
 
 
 Raw data type in R
