@@ -10,8 +10,8 @@
 (3 + 7)^2 - 1*10/4
 
 
-#Here we are going to use the c function to collect data entered at the console.
-#The c function in R programming stands for 'combine.
+#Here we are going to use the c() function to collect data entered at the console.
+#The c() function in R programming stands for combine.
 #We are going to name each collection of data, and then perform a numerical operation to calculate BMI. 
 #In this example we conduct an analysis that is analogous to working in a spreadsheet.
 
@@ -24,13 +24,15 @@ cbind(Height , Weight, BMI) # column bind, like spreadsheet
 #Using 'readr' from 'tidyverse' to write the BMI data to file
 #'tidyverse' is a collection of essential R packages for data science.
 #'readr' provides a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV). 
-#A data frame is a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values from each column.
+# A data frame is a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values from each column.
 #The function data.frame() creates data frames
 library(tidyverse)
 library(readr)
+
 #Create a data frame from the BMI data
 Data<-data.frame(cbind(Height , Weight, BMI))
 view(Data)
 head(Data)
 write_csv(Data, file="./Data/BMIData.csv")
+#That is the BMI data frame saved to the working 'Data' folder.
    
