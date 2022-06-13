@@ -709,14 +709,14 @@ However, the most common way of defining a data frame is reading the data stored
 ### **Accessing data frame elements**
 Because data frames are rectangular, elements of a data frame can be referenced by specifying the row and the column index in single square brackets (similar to a matrix).
 ```{r db}
-a[3, 3]
+a[2, 2]
 ```
 As data frames are also lists, it is possible to refer to columns (which are elements of such a list) using the list notation, i.e. either double square brackets or a $ notation:
 ```{r dc}
 a[["BMI"]]
 a$BMI
 ```
-
+ 
 ### **Data frame operations** 
 
 #### **Adding on to data frames** 
