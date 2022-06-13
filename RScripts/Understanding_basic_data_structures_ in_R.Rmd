@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# **Understanding data types in R**  
+# **Understanding data structures in R**  
 
 R has several core data structures (figure 1) including
 
