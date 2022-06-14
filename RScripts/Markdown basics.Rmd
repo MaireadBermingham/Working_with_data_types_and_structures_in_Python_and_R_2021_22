@@ -86,15 +86,15 @@ You can indicate emphasis with bold, italic, strikethrough, subscript, or supers
 ---
 <br>
 
-|Style                 |Syntax       |Output                               |
-|----------------------|-------------|-------------------------------------|
-|Bold                  |** **        |**This is bold text**                |  
-|Italic                |* *          |*This text is italicised*            |  
-|All bold and italic   |*** ***      |***This text is important***         |  
-|Bold and nested italic|** ** and _ _|**This text is _really_ important**  | 
-|Strikethrough         |~~ ~~        |~~This text is crossed out~~         | 
-|Subscript             |<sub> </sub> |<sub>This is a subscript text</sub>  | 
-|Superscript           |<sup> </sup> |<sup>This is a superscript text</sup>|  
+|Style                 |Syntax         |Output                               |
+|----------------------|---------------|-------------------------------------|
+|Bold                  |** **          |**This is bold text**                |  
+|Italic                |* *            |*This text is italicised*            |  
+|All bold and italic   |*** ***        |***This text is important***         |  
+|Bold and nested italic|** ** and _ _  |**This text is _really_ important**  | 
+|Strikethrough         |~~ ~~          |~~This text is crossed out~~         | 
+|Subscript             |\<sub> \</sub> |<sub>This is a subscript text</sub>  | 
+|Superscript           |\<sup> \</sup> |<sup>This is a superscript text</sup>|  
 
 <br>
 
