@@ -1,8 +1,10 @@
 ---
-title: "**Loading NHSRdatasets**"
+title: '**Loading NHSRdatasets**'
 author: "Mairead Bermingham"
 date: "`r format (Sys.time (), '%d %B, %Y')`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
