@@ -59,7 +59,7 @@ Common chunk options include:
 
 * echo=FALSE: Hide the code in the output. The code is evaluated when the R Markdown document is knit. However, only the output is rendered on the output document.
 
-* results=hide: The code chunk will be evaluated, but the results or code will not be rendered on the output document. This option is helpful if you are viewing the structure of a large object (e.g. outputs of a large data frame which is the equivalent of a spreadsheet in R).
+* results='hide': The code chunk will be evaluated, but the results or code will not be rendered on the output document. This option is helpful if you are viewing the structure of a large object (e.g. outputs of a large data frame which is the equivalent of a spreadsheet in R).
 
 * error = FALSE: R will stop on error when running the code chunks. Sometimes you may want to show errors on purpose (e.g., in an R tutorial). If you're going to show errors without stopping R, you can use the chunk option error = TRUE.
 
